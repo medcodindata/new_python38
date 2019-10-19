@@ -42,9 +42,6 @@ print(func(10, 20, 30))         # => error : 'TypeError: func() takes 2 position
                                               # arguments but 3 were given'
 # Indeed, because we have only a and b as positional parameter
 
-
-
-
 #********* f-strings support '=' for self-documenting expressions and debugging *********#
 a = 4
 b = 5
