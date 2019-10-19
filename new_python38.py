@@ -29,7 +29,6 @@ for row in data:
     if status :
         print(status)          # => Pending, Done
 
-
 #*********  Positional-only parameters to improve the python consistency *********#
 # In the following example, parameters a is positional-only,
 # while b can be positional or keyword, and c is required to be keywords
@@ -52,7 +51,7 @@ b = 5
 print(f'{a = } , {b = }')   # => a = 4 , b = 5
 print(f'{a = } , {b+3 = }') # => a = 4 , b+3 = 8
 
-
+# ***************** end ***********
 
 
 
