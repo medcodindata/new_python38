@@ -2,7 +2,7 @@
 #********* The walrus operator  ':='  *******#
 # This means that you can assign a value to a variable in a task at the same time
 
-# Exemple 1 :
+# Example 1 :
 # With walrus operator :
 for i in range(a:=5):
     print("a =",a, ",i =",i) # => a = 5
@@ -38,8 +38,7 @@ def func(a, /, b,  *, c):
 
 print(func(10, 20, c = 30))     # => (10, 20, 30) here you should indicate the 'c='
 print(func(10, b = 20, c = 30)) # => (10, 20, 30) b can a keyword too because of the '/'
-print(func(10, 20, 30))         # => error : 'TypeError: func() takes 2 positional
-                                              # arguments but 3 were given'
+print(func(10, 20, 30))  # => error : 'TypeError: func() takes 2 positional arguments but 3 were given'
 # Indeed, because we have only a and b as positional parameter
 
 #********* f-strings support '=' for self-documenting expressions and debugging *********#
